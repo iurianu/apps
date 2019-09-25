@@ -1,0 +1,354 @@
+body {
+	background: -webkit-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: -o-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: -moz-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+}
+
+header {margin-bottom: 20px;}
+
+ /**************** Navbar Styles ***************/
+
+ 
+ .navbar {
+	margin-bottom: 0px;
+ }
+ 
+.navbar-top {
+		min-height: 40px;
+}
+ 
+.navbar-header {
+	clear: both;
+}
+
+.icon-bar {
+	color: #d2d2d6;
+}	
+
+.logo {
+	float: left;
+	max-width: 100%;
+	margin-top: 5px;
+}
+ 
+.navbar-text a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.navbar-nav li a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0;
+}
+
+h1 {
+	float: left;
+	font-family: Flare-l;
+	font-size: 39px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	font-weight: normal;
+	line-height: 1;
+}
+
+.navbar-brand p {font-size: 17px;}
+
+#toggle {margin: 0;}
+
+#toggle  img {
+	width: 25px;
+	border-radius: 4px;
+	visibility: visible;
+}
+
+.dropdown li a, a:hover{
+	font-weight: normal;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.dropdown-header {text-decoration: underline;}
+
+#navigation {
+	padding-top: 20px;
+	margin-right: 30px;
+	font-family: Colaborate-Light;
+	font-size: 17px;
+	color: #161628;
+	line-height: 2px;
+}
+
+#navigation li a {
+	color: #d2d2d5;
+	line-height: 2px;
+	background: transparent;
+}
+
+#navigation li a:hover, a:focus {
+	color: #161628;
+	background: transparent;
+}
+
+.navbar-default {              /* replace "default" with inverse if using inverse    */ 
+ color: #FFFFFF;         				/* This eliminates the issue of color not changing   */  
+ background-color: #2C3E50;     
+ border-color: #FFFFFF; 
+} 
+
+
+ /***************** Footer Area ****************/
+
+#contra {
+	background-color: #1b1b2d;
+	font-family: Contra;
+	font-size: 13px;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding-left: 0px;
+}
+
+#contra-it {
+	font-family: Contra-Italic;
+	font-size: 15px;
+	color: #FFFFFF;
+	float: right;
+	margin-top: 10px;
+}
+
+#twit {
+	float: left;
+	margin-right: 40px;
+}
+
+#comment-form {
+	font-family: Colaborate-Light;
+	font-weight: normal !important;
+	color: #FFFFFF;
+}
+
+#comment-form label {
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+#n-form label {
+	padding-top: 10px;
+}
+
+#contact-email {
+	margin-right: 20px;
+}
+
+#comment-form button {
+	color: #363648;
+	line-height: 6px;
+	background-image: radial-gradient(#d2d2d6, #FFFFFF); /* Standard syntax */
+	border-radius: 6px;
+	border-color: #FFFFFF;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+#comment-form input {
+	background-color: #242439;
+	color: #e7e8ea;
+	font-size: 14px;
+	border-radius: 6px;
+	border: 0px;
+	margin-top: 5px;
+}
+
+#comment-form textarea {
+	background-color: #242439;
+	color: #e7e8ea;
+	font-size: 14px;
+	border-radius: 6px;
+	border: 0px;
+}
+
+.contact-form {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+#newsletter {
+	margin-top: 10px;
+}
+
+#r-form {
+	margin-top: -20px;
+	padding-left: 0px;
+}
+
+#t-area {
+	margin-right: 0px;
+	float: left;
+	padding-left: 0px;
+}
+
+#textbox {
+	float: left;
+	margin-top: 0px;
+	padding-right: 0px;
+}
+
+#submit-button {
+
+	margin-top: 6px;
+}
+
+.submit:hover {
+	opacity:.9;
+}
+
+footer {
+	background-image: -moz-linear-gradient(right, #353546, #3b3a4c);
+	background-image: linear-gradient(to right, #353546, #3b3a4c);
+	background-image: -webkit-linear-gradient(left, #353546, #3b3a4c);
+	background-image: -o-linear-gradient(right, #353546, #3b3a4c);
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#social-sites {
+	margin-left: 40px;
+	float: left;
+	margin-top: 20px;
+}
+
+#social-sites .fa {
+	border-radius: 40%;
+	color: #6d6d84;
+	background-color: #464659;
+	float: left;
+	margin-bottom: 10px;
+	font-size: 2em;
+	margin-left: 20px;
+}
+
+#copyright  {
+	font-family: Colaborate-Light;
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 20px;
+	margin-right: 50px;
+	vertical-align: center;
+	padding-bottom: 10px;
+	line-height: 2;
+	text-align: center;
+}
+
+ /******************** Fonts *******************/
+ 
+@font-face {
+ font-family: Glyphicon;
+ src: url('../fonts/glyphicons-halflings-regular.eot'); 	/* Glyphicons */
+}
+
+@font-face {
+ font-family: Glyphicon;
+ src: url('../fonts/glyphicons-halflings-regular.ttf');
+}
+
+@font-face {
+ font-family: Glyphicon;
+ src: url('../fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
+@font-face {
+ font-family: Glyphicon;
+ src: url('../fonts/glyphicons-halflings-regular.woff2') format('woff2');
+}
+
+@font-face { 
+ font-family: Alexandria;
+ src: url('../fonts/AlexandriaFLF.ttf'); 			/* Casady and Greene */
+} 
+ 
+@font-face { 
+ font-family: Alexandria; 
+ font-weight: bold; 
+ src: url('AlexandriaFLF-Bold.ttf'); 					/* Casady and Greene */
+}
+ 
+@font-face { 
+ font-family: ChunkFive;
+ src: url('../fonts/Chunkfive.otf');  				/* Licensed under the SIL Open Font License, Version 1.1. */
+} 
+
+@font-face { 
+ font-family: Colaborate-Regular;
+ src: url('../fonts/ColabReg.otf'); 					/* Colaborate Light Font (Ralph Oliver du Carrois) */
+}
+ 
+@font-face { 
+ font-family: Colaborate-Light;
+ src: url('../fonts/ColabLig.otf'); 					/* Colaborate Light Font (Ralph Oliver du Carrois) */
+}
+ 
+@font-face { 
+ font-family: Colaborate-Medium;
+ src: url('../fonts/ColabMed.otf');  					/* Colaborate Medium Font (Ralph Oliver du Carrois) */
+}
+ 
+@font-face { 
+ font-family: Colaborate-Thin;
+ src: url('../fonts/ColabThi.otf');  					/* Colaborate Thin Font (Ralph Oliver du Carrois) */
+}
+ 
+@font-face { 
+ font-family: Contra;
+ src: url('../fonts/contra.ttf');  						/* Apostrophic Labs License */
+}
+  
+@font-face { 
+ font-family: Contra-Italic;
+ font-style: italic;
+ src: url('../fonts/contra-italic.ttf');  		/* Apostrophic Labs License */
+}
+
+@font-face { 
+ font-family: Freeport;
+ src: url('../fonts/Freeport.ttf');  					/* Font Palace */
+}
+
+@font-face { 
+ font-family: Flare-l;
+ src: url('../fonts/FlareGothic-Light.ttf');  /* Font Palace */
+}
+
+@font-face { 
+ font-family: Franklin;
+ src: url('../fonts/Franklin_Cascades.ttf');  /* Font Palace */
+}
+
+/* CLEARFIX */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+* html .clearfix {height: 1%;}
+
+html[xmlns] .clearfix {display: block;}
+
+.clearfix {display: inline-block;}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0;
+}

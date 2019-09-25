@@ -1,0 +1,30 @@
+.apps-modal {
+	background-image: -moz-linear-gradient(right, #353546, #3b3a4c);
+	background-image: linear-gradient(to right, #353546, #3b3a4c);
+	background-image: -webkit-linear-gradient(left, #353546, #3b3a4c);
+	background-image: -o-linear-gradient(right, #353546, #3b3a4c);
+}
+
+.apps-modal h4 {
+	font-size: 35px;
+	color: white;
+}
+
+ul.demos {
+	display: inline;
+	list-style-type: none;
+}
+
+ul.demos li {
+	width: 33%;
+	float: left;
+	border-radius: 6px; -moz-border-radius: 6px;
+}
+
+ul.demos img {
+	width: 100%;
+	border: 1px solid #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 6px; -moz-border-radius: 6px;
+}

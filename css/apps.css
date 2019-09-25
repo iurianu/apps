@@ -1,0 +1,123 @@
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+ /**************** Main Content *****************/
+
+main {
+ 	border-radius: 12px;
+	background-image: linear-gradient(#e2e3e5, #FFFFFF); /* Standard syntax */
+}
+ 
+#ipsum {
+	font-family: Colaborate-Light;
+	font-size: 15px;
+	color: #5F7390;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#nav-top-2 {
+	background-color: #e2e3e5;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	overflow: hidden;
+}
+
+.searchbox {
+	padding-top: 20px;
+}
+
+.searchbox input {
+	overflow: hidden;
+	background-color: #242439;
+	color: #e7e8ea;
+	font-size: 14px;
+	border-radius: 6px;
+	vertical-align: center;
+	border: 0px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float: right;
+}
+
+.searchbox button {
+	background-image: radial-gradient(#d2d2d6, #FFFFFF);
+	border-radius: 8px;
+	float: right;
+	padding-top: 0px;
+	margin-right: 20px;
+	font-family: Colaborate-Light;
+	font-size: 17px;
+	color: #161628;
+}
+
+h2 {
+	margin-bottom: 0px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+/**************** Lightbox *****************/
+
+.controls{          
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;          
+}
+
+.next {
+    float:right;
+    text-align:right;
+}
+
+/**************** Section *****************/
+
+#gallery ul {margin:0 auto; padding: 0;}
+
+#gallery ul li {list-style:none;}
+
+#gallery ul li img {cursor: pointer;}
+ 
+#gallery figure h5{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 25px;
+	color: #585858;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#gallery figure {
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
+  padding: 0 10px;
+	width: 100%;
+	height: auto;
+  border-radius: 4px;
+  line-height: 1.5;
+  transition: border 0.2s ease-in-out 0s;
+}
+
+#gallery figure figcaption {
+	font-family: Arial;
+	font-weight: normal;
+	color: #4f4f4f;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+ 
+.thumbnail{overflow: hidden;}
+
+.thumbnail img {transition: all 0.3s ease 0s; width: 100%;}
+
+.thumbnail img:hover  {transform: scale(1.1);}

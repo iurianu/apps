@@ -1,0 +1,158 @@
+
+main {margin-top: 0 !important;}
+
+/****************** Carousel ******************/
+ 
+.carousel {
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 12px;
+}
+
+.carousel a {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#carousel_2 {
+	clear: both;
+	margin: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.car2 {
+	clear: both;
+	text-align: center;
+}
+
+.car2 p {
+	clear: both;
+	margin-top: 5px;
+}
+
+#left-arrow {
+	float: left;
+}
+
+#right-arrow {
+	float: right;
+}
+
+.car-txt {
+	font-family: Contra;
+	font-size: 16px;
+	color: #828181;
+	text-decoration: none;
+}
+
+
+/**************** Main Content *****************/
+
+main {
+	margin-top: 20px;
+}
+
+.thumbnail img {
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+
+.home-thumb img:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+}
+
+.thumbnail{
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.icon {
+	clear: both;
+	width: 33px;
+	margin-top: 25px;
+	height: 33px;
+	float: left;
+}
+
+.article {
+	margin-bottom: 20px;
+}
+
+.article h3 {
+	font-family: Colaborate-Light;
+	float: left;
+	margin-left: 10px;
+	font-size: 25px;
+	color: #505050;
+	text-align: top;
+}
+
+.article .subtitle {
+	clear: both;
+	font-family: Colaborate-Light;
+	font-size: 15px;
+	color: #5f7390;
+	float: left;
+}
+
+.article p {
+	clear: both;
+	font-family: Colaborate-Light;
+	font-size: 14px;
+	color: #505050;
+}
+
+h2 {
+	padding-top: 10px;
+	font-family: Colaborate-Light;
+	font-size: 27px;
+	color: #505050;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+h2 span {
+	position: absolute;
+	font-size: 15px;
+	color: #5F7390;
+	float: left;
+	text-align: left;
+}
+
+#ipad {
+	float: left;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.r-list {
+	clear: both;
+	list-style-type: none;
+	float: left;
+	text-align: center top;
+	padding-top: 50px;
+	font-family: Colaborate-Light;
+	font-size: 15px;
+	color: 828181;
+}
+
+.btn-main {
+	float: left;
+	font-family: Colaborate-Regular;
+	font-size: 19px;
+	color: #FFFFFF;
+  background: -webkit-radial-gradient(#2357a4, #2256a2, #2d6bc2); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#2357a4, #2256a2, #2d6bc2); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#2357a4, #2256a2, #2d6bc2); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#2357a4, #2256a2, #2d6bc2); /* Standard syntax (must be last) */
+	border-radius: 12px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 2px 8px;
+}
